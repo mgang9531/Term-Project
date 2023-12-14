@@ -1,5 +1,5 @@
 # **Mosaic treatment of a person's face with OpenCV**
----
+----
 
 **This code is a simple face mosaic program that uses OpenCV to detect faces in video files and mosaic the detected face area to play video.**
 
