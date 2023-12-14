@@ -12,33 +12,34 @@ We were inspired.
 ## ** Key Points - Describe the key steps**
 ---
 1. Library Import:
+   
 *i. cv2: a module for using the opencv library.*
 
-2. Initialize video files and face detectors:
-  *i. video_file: The path of the video file to be processed.*
+3. Initialize video files and face detectors:    
+  *i. video_file: The path of the video file to be processed.*    
 * ii. cap: Open a video file using cv2.VideoCapture and initialize the capture object.*
-*iii. face_cascade: Initializes the Haar Cascade classifier for face detection.*
+*iii. face_cascade: Initializes the Haar Cascade classifier for face detection.*         
 
-3. Video frame processing loop:
-  *i. while(cap.isOpen()): Repeated processing each frame of the video over an infinite loop.*
+3. Video frame processing loop:                
+  *i. while(cap.isOpen()): Repeated processing each frame of the video over an infinite loop.*         
 
-4. Read the frame:
+4. Read the frame:               
   *i. ret, frame = cap.read(): Read the following frame from the video capture object, and 
      return the success or failure of the frame itself.*
 * ii. faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize= 
-    (30, 30)): Haar Cascade*
+    (30, 30)): Haar Cascade*         
    
-5. Apply a mosaic face to the frame:
-  *i. Replace the original face area with a mosaicized area.*
+5. Apply a mosaic face to the frame:                
+  *i. Replace the original face area with a mosaicized area.*           
 
-6. Video Play and Termination Conditions:
+6. Video Play and Termination Conditions:           
   *i. cv2.imshow ('Video', frame): Display the processed frames on the screen.*
 * ii. cv2.waitKey(50) & 0xFF == order('q'): Waiting for keyboard input, press 'q' to end 
-     loop.*
+     loop.*          
    
-7. Resource release:
+7. Resource release:            
   *i. cap.release(): Release the video capture object.*
- *ii. cv2.destroyAllWindows(): Close all open windows.*
+ *ii. cv2.destroyAllWindows(): Close all open windows.*            
 
 ***The code detects the face in real time from the video, and mosaic the detected face. To exit, press the 'q' key.***
 
@@ -49,9 +50,9 @@ We were inspired.
 
 ## **Results**
 ---
- There are cases where the code don't recognize many people, and when the video is fast, code don't recognize them well. However, We think we can get closer to perfection if we supplement the results a little.
+ There are cases where the code don't recognize many people, and when the video is fast, code don't recognize them well. However, We think we can get closer to perfection if we supplement the results a little.          
 
-![Result1](123.gif)
+![Result1](123.mp4)         
 
 ## **The limitations**
 ---
