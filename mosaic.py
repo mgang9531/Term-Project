@@ -1,4 +1,4 @@
-video_file = 'aspa.mp4'
+video_file = 'video.mp4'
 cap = cv2.VideoCapture(video_file)
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
