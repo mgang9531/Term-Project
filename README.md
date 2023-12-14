@@ -52,7 +52,7 @@ We were inspired.
 ---
  There are cases where the code don't recognize many people, and when the video is fast, code don't recognize them well. However, We think we can get closer to perfection if we supplement the results a little.          
 
-![Result1](123.gif)         
+![Result1](123.mp4)         
 
 ## **The limitations**
 ---
